@@ -13,6 +13,9 @@ import org.testng.annotations.Test;
 import com.w2a.base.TestBase;
 import com.w2a.utilities.TestUtil;
 
+
+// new changes
+
 public class AddCustomerTest extends TestBase {
 
 	@Test(dataProvider = "getData")
@@ -46,6 +49,8 @@ public class AddCustomerTest extends TestBase {
 		Assert.assertTrue(alert.getText().contains(data.get("alertText")));
 
 		alert.accept();
+		
+		// ugvugvuy
 
 	}
 
