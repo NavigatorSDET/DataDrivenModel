@@ -31,7 +31,7 @@ public class AddCustomerTest extends TestBase {
 		if (!(TestUtil.isTestRunnable( "AddCustomerTest"   , excel))) {
 			
 			throw new SkipException ("Skipping the test"+"AddCustomerTest" +" with no error");
-			
+			//4654354
 		}		
 
 		driver.findElement(By.cssSelector(OR.getProperty("addCustBtn"))).click();
