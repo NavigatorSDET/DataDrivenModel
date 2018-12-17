@@ -32,6 +32,8 @@ public class AddCustomerTest extends TestBase {
 			
 			throw new SkipException ("Skipping the test"+"AddCustomerTest" +" with no error");
 			//4654354
+			
+			//,mjnb;fodjgn;dojf'nb
 		}		
 
 		driver.findElement(By.cssSelector(OR.getProperty("addCustBtn"))).click();
